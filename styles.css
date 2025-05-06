@@ -28,8 +28,8 @@ ul {
 
 .btn {
     display: inline-block;
-    background-color: #e9c46a;
-    color: #1a1a1a;
+    background-color: #1a1a1a;
+    color: #fcffd4;
     padding: 12px 24px;
     border-radius: 50px;
     font-weight: 500;
@@ -37,14 +37,15 @@ ul {
 }
 
 .btn:hover {
-    background-color: #e0b84e;
+    background-color: #fcffd4;
+    color: #1a1a1a;
     transform: translateY(-2px);
 }
 
 .btn-secondary {
     display: inline-block;
-    background-color: #e9c46a;
-    color: #1a1a1a;
+    background-color: #1a1a1a;
+    color: #faf9f4;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -54,7 +55,8 @@ ul {
 }
 
 .btn-secondary:hover {
-    background-color: #e0b84e;
+    background-color: #faf9f4;
+    color: #1a1a1a;
     transform: translateY(-2px);
 }
 
@@ -156,6 +158,8 @@ nav ul li ul.dropdown li a:hover {
 
 /* Hero Section */
 .hero {
+    background-color: #3d5728;
+    color: #fcffd4;
     padding: 80px 5%;
     text-align: center;
 }
