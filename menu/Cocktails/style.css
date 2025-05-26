@@ -153,6 +153,7 @@ nav ul li ul.dropdown li a:hover {
 .cart svg {
     vertical-align: middle;
 }
+
 /* Grid Container for Menu Items (using Grid Layout for proper wrapping) */
 .menu-grid {
     display: grid;

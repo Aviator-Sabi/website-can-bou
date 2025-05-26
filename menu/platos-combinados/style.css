@@ -153,3 +153,75 @@ nav ul li ul.dropdown li a:hover {
 .cart svg {
     vertical-align: middle;
 }
+
+
+/* Grid Container for Menu Items (using Grid Layout for proper wrapping) */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Auto-fill with 300px wide columns */
+    gap: 20px;  /* Space between items */
+    margin-bottom: 30px;
+}
+
+/* Menu Item Styling */
+.menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px #0000001a;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Menu Items */
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px #00000026;
+}
+
+/* Menu Image Styling */
+.menu-image {
+    height: 250px;
+    background-color: #f0f0f0;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* Image inside the menu item */
+.menu-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Menu Item Title */
+.menu-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+.sub-text{
+    font-family: "caveat";
+}
+/* Price Styling */
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Load More Button */
+.load-more {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Divider for separating sections */
+.divider {
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 15px 0;
+}
