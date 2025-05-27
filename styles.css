@@ -270,9 +270,9 @@ nav ul li ul.dropdown li a:hover {
     color: #333;
 }
 
-/* Description Text Styling (from the original design) */
+/* Description Text Styling*/
 .sub-text {
-    font-family: "Caveat", cursive;
+    font-family: "Caveat";
     font-size: 1rem;
     color: #666;
 }
